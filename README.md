@@ -1,2 +1,4 @@
 # Study
-Private Study Repository
+Study Repository
+
+- React

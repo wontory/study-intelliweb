@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+  <script src="./script.js"></script>
+  <style>
+    input {
+      display: block;
+    }
+    button {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>문제 1</h2>
+  <div>
+    <a href="/req1">링크1</a>
+  </div>
+  <h2>문제 2</h2>
+  <form method="POST" action="/req2" id="form1">
+    <lable for="name">name</lable><input id="name" type="text" name="name" />
+    <lable for="email">email</lable
+    ><input id="email" type="email" name="email" />
+    <input type="submit" value="확인" />
+  </form>
+  <h2>문제 3</h2>
+  <form method="POST" action="/req3" id="form2">
+    <lable for="id">ID</lable><input id="id" type="text" name="id" />
+    <input type="submit" value="확인" />
+  </form>
+  <h2>문제 4</h2>
+  <button id="btn">버튼</button>
+  <table id="table" border="1"></table>
+  <h2>문제 5</h2>
+  <form method="POST" action="form" id="form3">
+    <input type="number" name="num1" />
+    <input type="number" name="num2" />
+    <input type="submit" value="확인" />
+    <input type="hidden" name="abc" value="123" />
+  </form>
+</body>
